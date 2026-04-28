@@ -12,7 +12,7 @@ st.markdown("""
     .stButton>button { background-color: #4285F4; color: white; border-radius: 5px; }
     .priority-high { color: red; font-weight: bold; }
     </style>
-    """, unsafe_allow_index=True)
+    """, unsafe_allow_html=True)
 
 # --- MOCK DATA STORAGE (In a real app, this would be SQLite/Cloud SQL) ---
 if 'needs' not in st.session_state:
